@@ -1,0 +1,9 @@
+array1 = ['pen', 'paper', 'book', 'bottle'];
+random_no = Math.floor((Math.random()*array1.length)+1);
+element_of_array = array1(random_no);
+document.getElementById("sketch").innerHTML = "Sketch to be Drawn: " + element_of_array;
+timer_counter = 0;
+timer_check = "";
+drawn_sketch = "";
+answer_holder = "";
+score = 0;
